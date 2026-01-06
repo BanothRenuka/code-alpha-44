@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+h1, h2 {
+    text-align: center;
+    color: darkred;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+select, input, button {
+    padding: 8px;
+    font-size: 14px;
+}
+
+button {
+    background-color: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: maroon;
+}
+
+.booking-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.cancel-btn {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
